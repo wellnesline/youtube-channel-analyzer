@@ -1,0 +1,15 @@
+# credentials and local state: never commit
+channels/*/secrets/
+secrets/
+.env
+.env.*
+token.json
+client_secret*.json
+*.sqlite
+*.sqlite3
+# fetched/ingested data (metadata, user-provided texts, analysis results)
+analysis_data/
+__pycache__/
+*.pyc
+.pytest_cache/
+.venv/
